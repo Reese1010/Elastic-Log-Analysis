@@ -2,15 +2,16 @@
 
 This project demonstrates the use of Elastic Search and Kibana to analyze login activity data and detect signs of credential misuse within an enterprise environment
 
+# Overview
+
+An attacker has performed a successful attack and obtained the credential of the vulnerability scanner. 
+Find compromised machines by analyzing login activities of the vulnerability scanner
+
 # Objectives
 
 * Detect unauthorized use of the vulscan login
 * Identify potentially compromised endpoints
 * Determine possible source machines used in the attack
-
-# Overview
-
-An attacker has performed a successful attack and obtained the credential of the vulnerability scanner. Find compromised machines by analyzing login activities of the vulnerability scanner
 
 # Tools & Technology
 
