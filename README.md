@@ -22,7 +22,7 @@ Find compromised machines by analyzing login activities of the vulnerability sca
 # Analysis Workflow
 
 * Log Ingestion: Imported the svclog file into Elastic Cloud for investigation
- ![Log Ingestion](images/log_ingestion.png)
+ ![Log Ingestion](images/IngestLog.png)
 * Kibana Querying: Built targeted queries to isolate logins by the vulscan account
  ![Kibana Query](images/kibana_query.png)
 * Behavioral Analysis: Reviewed timestamps, source IPs, and workstation names to identify unusual login patterns
