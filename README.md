@@ -22,6 +22,7 @@ Find compromised machines by analyzing login activities of the vulnerability sca
 # Analysis Workflow
 
 * Log Ingestion: Imported the svclog file into Elastic Cloud for investigation
+  
  ![Log Ingestion](IngestLog.png)
  ![Log Ingestion](svcIngest.png)
  ![Log Ingestion](svc_config.png)
