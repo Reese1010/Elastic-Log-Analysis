@@ -32,8 +32,8 @@ Find compromised machines by analyzing login activities of the vulnerability sca
 * Kibana Querying: Built targeted queries to isolate logins by the vulscan account
 * Logic behind the query:
   Event ID 4624 (indicating successful login),
-  Logins using the vulscan account,
-  Exclusion of logins from the legitimate IP and workstation (10.5.55.11, SEC01.YOLP.com
+  logins using the vulscan account,
+  exclusion of logins from the legitimate IP and workstation (10.5.55.11, SEC01.YOLP.com)
   
  ![Kibana Query](svc_Query.png)
  
