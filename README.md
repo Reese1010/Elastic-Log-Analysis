@@ -23,9 +23,14 @@ Find compromised machines by analyzing login activities of the vulnerability sca
 
 * Log Ingestion: Imported the svclog file into Elastic Cloud for investigation
  ![Log Ingestion](IngestLog.png)
+ ![Log Ingestion](svc_config.png)
+ ![Log Ingestion](svcIngest.png)
+ ![Log Ingestion](svcIngest2.png)
+ ![Log Ingestion](svc_Index.png)
 * Kibana Querying: Built targeted queries to isolate logins by the vulscan account
- ![Kibana Query](images/kibana_query.png)
+ ![Kibana Query](svc_Query.png)
 * Behavioral Analysis: Reviewed timestamps, source IPs, and workstation names to identify unusual login patterns
-   ![Behavioral Analysis](images/behavioral_analysis.png)
 * Compromised Endpoint Identification:  Pinpointed machines that were accessed using the stolen vulscan credentials outside of normal scanner behavior
-  ![Compromised Endpoint](images/compromised_endpoint.png)
+  ![Compromised Endpoint](svc_sus_comp1.png)
+  ![Compromised Endpoint](svc_sus_comp2.png)
+  ![Compromised Endpoint](svc_sus_comp3.png)
