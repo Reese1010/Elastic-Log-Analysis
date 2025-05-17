@@ -32,11 +32,15 @@ Find compromised machines by analyzing login activities of the vulnerability sca
  ![Kibana Query](svc_Query.png)
 * Behavioral Analysis: Reviewed timestamps, source IPs, and workstation names to identify unusual login patterns
 * Compromised Endpoint Identification:  Pinpointed machines that were accessed using the stolen vulscan credentials outside of normal scanner behavior
+  
   IT09 Workstation (15/40 entries)
+  
   ![Compromised Endpoint](svc_sus_comp1.png)
   IT08 Workstation (5/40 entries)
+  
   ![Compromised Endpoint](svc_sus_comp2.png)
   IT04 Workstation (20/40 entries)
+  
   ![Compromised Endpoint](svc_sus_comp3.png)
 
 * The vulscan account should only ever log in from 10.5.55.11 / SEC01.YOLP.com.
