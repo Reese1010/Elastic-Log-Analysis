@@ -1,25 +1,25 @@
-🛡️ # SOC Analyst Project: Endpoint Detection - Login Analysis
+##🛡️  SOC Analyst Project: Endpoint Detection - Login Analysis
 
 This project demonstrates the use of Elastic Search and Kibana to analyze login activity data and detect signs of credential misuse within an enterprise environment
 
-##📘 # Overview
+##📘  Overview
 YOLP.com's security team uses a commercial vulnerability scanner. The vulnerability scanner periodically logs on to every machine in the company to perform routine scanning. The vulnerability scanner is located on SEC01.YOLP.com with IP address: 10.5.55.11 . The login  id is vulscan. 
 An attacker has performed a successful attack and obtained the credential of the vulnerability scanner. 
 Find compromised machines by analyzing login activities of the vulnerability scanner
 
-##🎯 # Objectives
+##🎯  Objectives
 
 * Detect unauthorized use of the vulscan login
 * Identify potentially compromised endpoints
 * Determine possible source machines used in the attack
 
-##🧰 # Tools & Technology
+##🧰  Tools & Technology
 
 * Elastic
 * Kibana
 * Log file (svclog) – Contains login event data
 
-##🧪 # Analysis Workflow
+##🧪  Analysis Workflow
 
 ##1️⃣ * Log Ingestion: Imported the svclog file into Elastic Cloud for investigation
   
