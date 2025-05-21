@@ -1,4 +1,4 @@
-##🛡️## # SOC Analyst Project: Endpoint Detection - Login Analysis
+🛡️ # SOC Analyst Project: Endpoint Detection - Login Analysis
 
 This project demonstrates the use of Elastic Search and Kibana to analyze login activity data and detect signs of credential misuse within an enterprise environment
 
